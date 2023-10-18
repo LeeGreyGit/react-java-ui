@@ -6,14 +6,23 @@ export const useStyles = makeStyles(() =>
     root: {
       padding: 36,
     },
+    header: {
+      margin: "16px 0",
+    },
     form: {
       display: "flex",
-      alignItems: "center",
       flexDirection: "column",
-      rowGap: 24,
+      rowGap: 16,
     },
     error: {
       color: colors.red[500],
+    },
+    button: {
+      display: "flex",
+      alignItems: "center",
+      flexDirection: "row",
+      columnGap: "24px",
+      justifyContent: "center",
     },
   })
 );

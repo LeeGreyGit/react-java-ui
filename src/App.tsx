@@ -1,14 +1,14 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
-import Home from "./components/home/Home";
-import UserList from "./components/user/UserList";
+import Detail from "./components/detail/Detail";
+import Todo from "./components/todo/Todo";
 
 const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/user-list" element={<UserList />} />
+        <Route path="/" element={<Todo />} />
+        <Route path="/detail" element={<Detail />} />
       </Routes>
     </Router>
   );

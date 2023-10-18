@@ -1,4 +1,5 @@
 export const _URL = {
-  USER_LIST: `user/list`,
-  LOGIN: `/user/login`,
+  TODO_LIST: `todo/list`,
+  UPDATE: `/todo/update`,
+  DELETE: `/todo/delete/:id`,
 };
